@@ -1,8 +1,26 @@
-.header-container {
+body{
   max-width: 1376px;
+  margin: auto;
+  position: relative;
+}
+
+.header-container {
+  position: static;
   background-color: #F72210;
   height: 80px;
   margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.link-size-19{
+  font-size: 19px;
+}
+
+.link-size-18 {
+  font-size: 18px;
 }
 
 .contain-logo {
@@ -22,7 +40,51 @@
   border-radius: 24px;
 }
 
-@media only screen and (max-width: 992px) {
+.header-deco::before {
+  content: " ";
+  position: absolute;
+  top: 80px;
+  left: 95%;
+  width: 5%;
+  background-color: #F72210;
+  border-left: 12px solid white;
+  border-top: 12px solid #F72210;
+}
+
+.header-list {
+  margin-right: 5%;
+  padding: 0;
+}
+
+.header-list a {
+  color: black;
+}
+
+.header-list a:hover {
+  color: #F72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.trending-list {
+  margin-right: 5%;
+}
+
+.trending-list {
+  font-size:
+}
+
+.trending-list a {
+  color: #807F84;
+}
+
+.trending-list a:hover {
+  color: #F72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
   
   .header-container {
     height: 45px;
