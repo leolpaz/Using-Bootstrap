@@ -5,6 +5,11 @@
   margin: auto;
 }
 
+.contain-logo {
+  width: 396px;
+  height: 60px;
+}
+
 .main-logo {
   fill: white;
 }
@@ -19,13 +24,13 @@
 
 @media only screen and (max-width: 992px) {
   
+  .header-container {
+    height: 45px;
+  }
+
   .contain-logo {
     width: 132px;
     height: 20px;
-  }
-
-  .header-container {
-    height: 45px;
   }
 
   .subscribe-login {
