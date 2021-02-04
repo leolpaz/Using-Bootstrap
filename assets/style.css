@@ -113,6 +113,10 @@ li {
   color: #A0A0A0;
 }
 
+.gray-text:hover {
+  color: #A0A0A0;
+}
+
 h2 {
   font-size: 16px;
   font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -129,6 +133,21 @@ h2 {
     width: 95px;
     object-fit: cover;
     object-position: center center;
+}
+
+.latest-news img  {
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.text-decoration-none a {
+  text-decoration: none;
+}
+
+.border-news {
+  border-bottom: 1px solid #DDDDDD;
 }
 
 @media only screen and (max-width: 991px) {
