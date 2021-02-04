@@ -1,7 +1,16 @@
-body{
-  max-width: 1376px;
+body {
+  max-width: 1310px;
   margin: auto;
   position: relative;
+}
+
+main {
+  max-width: 1244px;
+  margin: auto
+}
+
+a {
+  color: #000;
 }
 
 .header-container {
@@ -15,12 +24,28 @@ li {
   list-style: none;
 }
 
-.text-size-19{
+.text-size-19 {
   font-size: 19px;
 }
 
 .text-size-18 {
   font-size: 18px;
+}
+
+.text-size-15 {
+  font-size: 15px;
+}
+
+.link-size-19 a {
+  font-size: 19px;
+}
+
+.link-size-22 a{
+  font-size: 22px;
+}
+
+.link-size-16 a {
+  font-size: 16px;
 }
 
 .contain-logo {
@@ -78,6 +103,21 @@ li {
   color: #F72210;
   cursor: pointer;
   text-decoration: none;
+}
+
+.gray-text {
+  color: #A0A0A0;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.hover-red:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 @media only screen and (max-width: 991px) {
