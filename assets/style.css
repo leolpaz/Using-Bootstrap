@@ -15,11 +15,11 @@ li {
   list-style: none;
 }
 
-.link-size-19{
+.text-size-19{
   font-size: 19px;
 }
 
-.link-size-18 {
+.text-size-18 {
   font-size: 18px;
 }
 
@@ -70,10 +70,6 @@ li {
   margin-right: 5%;
 }
 
-.trending-list {
-  font-size:
-}
-
 .trending-list a {
   color: #807F84;
 }
@@ -84,17 +80,6 @@ li {
   text-decoration: none;
 }
 
-.test-box1{
-  background-color: aqua;
-}
-
-.test-box2{
-  background-color: brown;
-}
-
-.test-box3{
-  background-color: pink;
-}
 @media only screen and (max-width: 991px) {
   
   .header-container {
