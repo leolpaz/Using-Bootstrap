@@ -5,8 +5,7 @@ body {
 }
 
 main {
-  max-width: 1244px;
-  margin: auto
+  margin-left: 35px;
 }
 
 a {
@@ -46,6 +45,10 @@ li {
 
 .link-size-22 a{
   font-size: 22px;
+}
+
+.link-size-24 a{
+  font-size: 24px;
 }
 
 .link-size-16 a {
@@ -154,12 +157,43 @@ h2 {
   border-bottom: 1px solid #DDDDDD;
 }
 
-
-
 .fs-hover a:hover {
   color: #F72210;
   cursor: pointer;
   text-decoration: none;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.border-debate {
+  border-top: 5px solid #D9D9D9;
+  border-bottom: 5px solid #D9D9D9;
+}
+
+.round-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.vs-border {
+  height: 1px;
+  border: 3px double #D9D9D9;
+}
+
+.vs {
+position: relative;
+top: 50%;
+left: 50%;
+background-color: #000;
+color: white;
+border-radius: 50%;
+width: 32px;
+height: 32px;
+text-align: center;
+font-size: 14px;
+transform: translate(-50%, -50%);
 }
 
 
