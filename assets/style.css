@@ -48,6 +48,10 @@ li {
   font-size: 16px;
 }
 
+.link-size-17 a {
+  font-size: 17px;
+}
+
 .contain-logo {
   width: 396px;
   height: 60px;
@@ -118,6 +122,13 @@ h2 {
   color: #000;
   text-decoration: underline;
   text-decoration-color: #f72210;
+}
+
+.more-stories img  {
+    height: 95px;
+    width: 95px;
+    object-fit: cover;
+    object-position: center center;
 }
 
 @media only screen and (max-width: 991px) {
