@@ -1,0 +1,36 @@
+.header-container {
+  max-width: 1376px;
+  background-color: #F72210;
+  height: 80px;
+  margin: auto;
+}
+
+.main-logo {
+  fill: white;
+}
+
+.subscribe-login {
+  align-self: end !important;
+}
+
+.subscribe {
+  border-radius: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  
+  .contain-logo {
+    width: 132px;
+    height: 20px;
+  }
+
+  .header-container {
+    height: 45px;
+  }
+
+  .subscribe-login {
+    align-self: center !important;
+  }
+
+}
+
