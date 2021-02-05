@@ -14,6 +14,10 @@ p {
   line-height: 1;
 }
 
+img:hover {
+  cursor: pointer;
+}
+
 .header-container {
   position: static;
   background-color: #F72210;
@@ -227,6 +231,22 @@ transform: translate(-50%, -50%);
 
 .special-image img {
   max-height: 100vh;
+}
+
+.side-column img {
+  margin-right: 10px;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .side-column img {
+    width: 200px;
+    height: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 991px) {
