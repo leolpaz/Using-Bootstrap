@@ -59,6 +59,10 @@ li {
   font-size: 17px;
 }
 
+.link-size-18 a{
+  font-size: 18px;
+}
+
 .contain-logo {
   width: 396px;
   height: 60px;
@@ -214,6 +218,17 @@ transform: translate(-50%, -50%);
 .more-stories2 img  {
   object-fit: cover;
   object-position: center center;
+}
+
+.adjust-image img {
+  min-height: 290px;
+  max-height: 450px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.special-image img {
+  max-height: 100vh;
 }
 
 @media only screen and (max-width: 991px) {
