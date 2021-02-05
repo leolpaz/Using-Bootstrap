@@ -6,7 +6,7 @@
 
 > In this project I made a responsive copy of Newsweek page using bootstrap
 
-![screenshot](https://github.com/leolpaz/Responsive-Design/blob/features2/app_screenshot.png)
+![screenshot](https://github.com/leolpaz/Using-Bootstrap/blob/features2/app_screenshot.png)
 
 I made a copy of the Newsweek page using the bootstrap framework
 
