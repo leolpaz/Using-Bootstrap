@@ -12,7 +12,7 @@ I made a copy of the Newsweek page using the bootstrap framework
 
 ## Live Demo
 
-- [Visit Page](https://raw.githack.com/leolpaz/using-bootstrap/features2/index.html)
+- [Visit Page](https://raw.githack.com/leolpaz/using-bootstrap/features/index.html)
 
 ## Built With
 
