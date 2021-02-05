@@ -41,6 +41,10 @@ li {
   font-size: 15px;
 }
 
+.text-size-12 {
+  font-size: 12px;
+}
+
 .link-size-19 a {
   font-size: 19px;
 }
@@ -55,6 +59,10 @@ li {
 
 .link-size-16 a {
   font-size: 16px;
+}
+
+.link-size-14 a {
+  font-size: 14px;
 }
 
 .link-size-17 a {
@@ -120,6 +128,10 @@ li {
   color: #F72210;
   cursor: pointer;
   text-decoration: none;
+}
+
+.search {
+  color: #A0A0A0 !important;
 }
 
 .gray-text {
@@ -240,6 +252,48 @@ transform: translate(-50%, -50%);
   height: 100px;
 }
 
+.sign-up {
+  height: 38px;
+}
+
+.brand img {
+  width: 240px;
+  height: 38px;
+}
+
+.icons {
+  font-size: 26px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.fb:hover {
+ color: #3b5998;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: #405de6;
+}
+
+.linkedin:hover {
+  color: #009cd8;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.line {
+  height: 30px;
+  border: 1px solid #D9D9D9;  
+}
+
 @media only screen and (max-width: 767px) {
 
   .side-column img {
@@ -270,3 +324,10 @@ transform: translate(-50%, -50%);
 
 }
 
+@media only screen and (min-width: 767px){
+
+.border-end {
+  border-right: 1px solid #dee2e6 !important;
+}
+
+}
