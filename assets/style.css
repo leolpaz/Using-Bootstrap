@@ -311,8 +311,6 @@ footer a:hover {
   bottom: 0;
 }
 
-
-
 @media only screen and (max-width: 767px) {
   .side-column img {
     width: 200px;
