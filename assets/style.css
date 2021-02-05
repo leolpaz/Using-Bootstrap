@@ -4,8 +4,6 @@ body {
   position: relative;
 }
 
-
-
 a {
   color: #000;
 }
@@ -20,7 +18,7 @@ img:hover {
 
 .header-container {
   position: static;
-  background-color: #F72210;
+  background-color: #f72210;
   height: 80px;
   margin: auto;
 }
@@ -49,11 +47,11 @@ li {
   font-size: 19px;
 }
 
-.link-size-22 a{
+.link-size-22 a {
   font-size: 22px;
 }
 
-.link-size-24 a{
+.link-size-24 a {
   font-size: 24px;
 }
 
@@ -69,7 +67,7 @@ li {
   font-size: 17px;
 }
 
-.link-size-18 a{
+.link-size-18 a {
   font-size: 18px;
 }
 
@@ -96,9 +94,9 @@ li {
   top: 80px;
   left: 95%;
   width: 5%;
-  background-color: #F72210;
+  background-color: #f72210;
   border-left: 12px solid white;
-  border-top: 12px solid #F72210;
+  border-top: 12px solid #f72210;
 }
 
 .header-list {
@@ -110,36 +108,24 @@ li {
   color: black;
 }
 
-.header-list a:hover {
-  color: #F72210;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .trending-list {
   margin-right: 5%;
 }
 
 .trending-list a {
-  color: #807F84;
-}
-
-.trending-list a:hover {
-  color: #F72210;
-  cursor: pointer;
-  text-decoration: none;
+  color: #807f84;
 }
 
 .search {
-  color: #A0A0A0 !important;
+  color: #a0a0a0 !important;
 }
 
 .gray-text {
-  color: #A0A0A0;
+  color: #a0a0a0;
 }
 
 .gray-text:hover {
-  color: #A0A0A0;
+  color: #a0a0a0;
 }
 
 h2 {
@@ -153,14 +139,14 @@ h2 {
   text-decoration-color: #f72210;
 }
 
-.more-stories img  {
-    height: 95px;
-    width: 95px;
-    object-fit: cover;
-    object-position: center center;
+.more-stories img {
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+  object-position: center center;
 }
 
-.latest-news img  {
+.latest-news img {
   height: 95px;
   width: 95px;
   object-fit: cover;
@@ -172,13 +158,7 @@ h2 {
 }
 
 .border-news {
-  border-bottom: 1px solid #DDDDDD;
-}
-
-.fs-hover a:hover {
-  color: #F72210;
-  cursor: pointer;
-  text-decoration: none;
+  border-bottom: 1px solid #ddd;
 }
 
 .line-height-1 {
@@ -186,8 +166,8 @@ h2 {
 }
 
 .border-debate {
-  border-top: 5px solid #D9D9D9;
-  border-bottom: 5px solid #D9D9D9;
+  border-top: 5px solid #d9d9d9;
+  border-bottom: 5px solid #d9d9d9;
 }
 
 .round-image {
@@ -197,21 +177,21 @@ h2 {
 
 .vs-border {
   height: 1px;
-  border: 3px double #D9D9D9;
+  border: 3px double #d9d9d9;
 }
 
 .vs {
-position: relative;
-top: 50%;
-left: 50%;
-background-color: #000;
-color: white;
-border-radius: 50%;
-width: 32px;
-height: 32px;
-text-align: center;
-font-size: 14px;
-transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
 }
 
 .icon-n {
@@ -229,7 +209,7 @@ transform: translate(-50%, -50%);
   margin: auto;
 }
 
-.more-stories2 img  {
+.more-stories2 img {
   object-fit: cover;
   object-position: center center;
 }
@@ -270,7 +250,7 @@ transform: translate(-50%, -50%);
 }
 
 .fb:hover {
- color: #3b5998;
+  color: #3b5998;
 }
 
 .twitter:hover {
@@ -291,24 +271,39 @@ footer a:hover {
 
 .line {
   height: 30px;
-  border: 1px solid #D9D9D9;  
+  border: 1px solid #d9d9d9;
+}
+
+.header-list a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.trending-list a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fs-hover a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {
-
   .side-column img {
     width: 200px;
     height: 200px;
   }
-
 }
 
 @media only screen and (max-width: 991px) {
-
   main {
     margin: auto;
   }
-  
+
   .header-container {
     height: 45px;
   }
@@ -321,13 +316,10 @@ footer a:hover {
   .subscribe-login {
     align-self: center !important;
   }
-
 }
 
-@media only screen and (min-width: 767px){
-
-.border-end {
-  border-right: 1px solid #dee2e6 !important;
-}
-
+@media only screen and (min-width: 767px) {
+  .border-end {
+    border-right: 1px solid #dee2e6 !important;
+  }
 }
