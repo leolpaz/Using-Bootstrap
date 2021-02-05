@@ -1,0 +1,348 @@
+body {
+  max-width: 1310px;
+  margin: auto;
+  position: relative;
+}
+
+a {
+  color: #000;
+}
+
+p {
+  line-height: 1;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.header-container {
+  position: static;
+  background-color: #f72210;
+  height: 80px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.text-size-19 {
+  font-size: 19px;
+}
+
+.text-size-18 {
+  font-size: 18px;
+}
+
+.text-size-15 {
+  font-size: 15px;
+}
+
+.text-size-12 {
+  font-size: 12px;
+}
+
+.link-size-19 a {
+  font-size: 19px;
+}
+
+.link-size-22 a {
+  font-size: 22px;
+}
+
+.link-size-24 a {
+  font-size: 24px;
+}
+
+.link-size-16 a {
+  font-size: 16px;
+}
+
+.link-size-14 a {
+  font-size: 14px;
+}
+
+.link-size-17 a {
+  font-size: 17px;
+}
+
+.link-size-18 a {
+  font-size: 18px;
+}
+
+.contain-logo {
+  width: 396px;
+  height: 60px;
+}
+
+.main-logo {
+  fill: white;
+}
+
+.subscribe-login {
+  align-self: end !important;
+}
+
+.subscribe {
+  border-radius: 24px;
+}
+
+.header-deco::before {
+  content: " ";
+  position: absolute;
+  top: 80px;
+  left: 95%;
+  width: 5%;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 12px solid #f72210;
+}
+
+.header-list {
+  margin-right: 5%;
+  padding: 0;
+}
+
+.header-list a {
+  color: black;
+}
+
+.trending-list {
+  margin-right: 5%;
+}
+
+.trending-list a {
+  color: #807f84;
+}
+
+.search {
+  color: #a0a0a0 !important;
+}
+
+.gray-text {
+  color: #a0a0a0;
+}
+
+.gray-text:hover {
+  color: #a0a0a0;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.hover-red:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.more-stories img {
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.latest-news img {
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.text-decoration-none a {
+  text-decoration: none;
+}
+
+.border-news {
+  border-bottom: 1px solid #ddd;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.border-debate {
+  border-top: 5px solid #d9d9d9;
+  border-bottom: 5px solid #d9d9d9;
+}
+
+.round-image {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.vs-border {
+  height: 1px;
+  border: 3px double #d9d9d9;
+}
+
+.vs {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+}
+
+.icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 5px;
+}
+
+.signup-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.more-stories2 img {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.adjust-image img {
+  min-height: 200px;
+  max-height: 450px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.special-image img {
+  max-height: 100vh;
+}
+
+.side-column img {
+  margin-right: 10px;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.sign-up {
+  height: 38px;
+}
+
+.brand img {
+  width: 240px;
+  height: 38px;
+}
+
+.icons {
+  font-size: 26px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.fb:hover {
+  color: #3b5998;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: #405de6;
+}
+
+.linkedin:hover {
+  color: #009cd8;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.line {
+  height: 30px;
+  border: 1px solid #d9d9d9;
+}
+
+.header-list a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.trending-list a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fs-hover a:hover {
+  color: #f72210;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.stacked-mags {
+  position: relative;
+  min-width: 240px;
+  max-width: 245px;
+  height: 260px;
+}
+
+.mag1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.mag2 {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .side-column img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .stacked-mags {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  main {
+    margin: auto;
+  }
+
+  .header-container {
+    height: 45px;
+  }
+
+  .contain-logo {
+    width: 132px;
+    height: 20px;
+  }
+
+  .subscribe-login {
+    align-self: center !important;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .border-end {
+    border-right: 1px solid #dee2e6 !important;
+  }
+}
