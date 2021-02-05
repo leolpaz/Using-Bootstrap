@@ -4,9 +4,7 @@ body {
   position: relative;
 }
 
-main {
-  margin-left: 35px;
-}
+
 
 a {
   color: #000;
@@ -221,7 +219,7 @@ transform: translate(-50%, -50%);
 }
 
 .adjust-image img {
-  min-height: 290px;
+  min-height: 200px;
   max-height: 450px;
   object-fit: cover;
   object-position: top center;
